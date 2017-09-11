@@ -27,3 +27,6 @@ Windows操作系统中需要通过客户端建立SSH Tunnel。例如Xshell、Put
 ![](https://github.com/xumi1993/Introduction-to-SSH-Tunnel/blob/master/images/fig2.png)
 
 最后保存配置并连接服务器即可。
+
+## 设置本地代理服务器
+这个过程和任何设置代理服务器的方式一样，可以使用IE中默认的代理配置工具，也可以使用各种浏览器的代理工具，这里以Chrome浏览器中SwitchyOmega为例
