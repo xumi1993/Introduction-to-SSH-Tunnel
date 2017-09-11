@@ -7,9 +7,13 @@
 1. 建立SSHTunnel
 2. 设置本地代理
 
-## Linux/Macos 系统建立 SSH Tunnel
+## Linux/Macos 系统建立SSH Tunnel
 在登录终端时输入
 ```Bash
 ssh -D 2080 user@server
 ```
-这样就成功建立了服务器端22端口与本地2080的端口的隧道。本地端口可以任意设置这要不与其他服务冲突即可
+这样就成功建立了服务器端22端口与本地2080的端口的隧道。本地端口可以任意设置这要不与其他服务冲突即可，根据规则自定义端口号应该设置在1000以上。
+
+
+## Windows 系统建立SSH Tunnel
+Windows操作系统中需要通过客户端建立SSH Tunnel。例如Xshell、Putty。这里以Putty为例
