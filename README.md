@@ -17,3 +17,13 @@ ssh -D 2080 user@server
 
 ## Windows 系统建立SSH Tunnel
 Windows操作系统中需要通过客户端建立SSH Tunnel。例如Xshell、Putty。这里以Putty为例
+
+1. 在Session面板中输入Host Name 或 IP Address
+
+![](https://github.com/xumi1993/Introduction-to-SSH-Tunnel/blob/master/images/fig1.png)
+
+2. 在左侧边栏SSH/Tunnels面板设置本地端口号和动态转发
+
+![](https://github.com/xumi1993/Introduction-to-SSH-Tunnel/blob/master/images/fig2.png)
+
+最后保存配置并连接服务器即可。
